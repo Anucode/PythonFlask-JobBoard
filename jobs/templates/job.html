@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{%extends "layout.html"%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JOB Page</title>
+</head>
+<body>
+ <div class="content">
+     {% block content %}
+     {{ show_job(job) }}
+     {% endblock %}
+ </div>
+</body>
+</html>
