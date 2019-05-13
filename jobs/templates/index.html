@@ -1,2 +1,10 @@
-{% extends "layout.html" %}
+{%extends "layout.html"%}
+<html>
+<head><title>{% block title %}Homepage {%endblock%}</title></head>
+<body>
+  {% block content %}
 <h1>Jobs</h1>
+<p>Welcome to my flask job web site!</p>
+  {% endblock %}
+</body>
+</html>
