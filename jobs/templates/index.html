@@ -5,12 +5,18 @@
   {% block content %}
   <div class="columns">
     <div class="column">
-      <h1>Jobs</h1>
+      <h1>Welcome to Flask Jobs!</h1>
+     <p>You have landed @ Flask Jobs page, Click the Job names to find out more. </p>
     </div>
     <div class="column is-one-fifth">
+    </div>
+    <div class="page-header">
+      <img src="{{ url_for('static', filename='image/logo.jpg') }}"class="logoclass">
     </div>
   </div>
   {{show_jobs(jobs)}}
   {% endblock %}
 </body>
 </html>
+
+
